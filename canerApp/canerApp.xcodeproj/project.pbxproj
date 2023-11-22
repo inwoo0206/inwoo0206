@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		343C3CD12B0DB6A60086695F /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343C3CD02B0DB6A60086695F /* CustomTableViewCell.swift */; };
+		345BA3372B0DE9370024553B /* ebookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345BA3362B0DE9370024553B /* ebookViewController.swift */; };
+		345BA3392B0DEC940024553B /* foodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345BA3382B0DEC940024553B /* foodViewController.swift */; };
+		345BA33B2B0E04EC0024553B /* tmiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345BA33A2B0E04EC0024553B /* tmiViewController.swift */; };
+		34A485342B0DA86C0097FAAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A485332B0DA86C0097FAAE /* AppDelegate.swift */; };
+		34A485362B0DA86C0097FAAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A485352B0DA86C0097FAAE /* SceneDelegate.swift */; };
+		34A485382B0DA86C0097FAAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A485372B0DA86C0097FAAE /* ViewController.swift */; };
+		34A4853B2B0DA86C0097FAAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A485392B0DA86C0097FAAE /* Main.storyboard */; };
+		34A4853D2B0DA86C0097FAAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34A4853C2B0DA86C0097FAAE /* Assets.xcassets */; };
+		34A485402B0DA86C0097FAAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A4853E2B0DA86C0097FAAE /* LaunchScreen.storyboard */; };
+		34A4854B2B0DA86D0097FAAE /* canerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A4854A2B0DA86D0097FAAE /* canerAppTests.swift */; };
+		34A485552B0DA86D0097FAAE /* canerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A485542B0DA86D0097FAAE /* canerAppUITests.swift */; };
+		34A485572B0DA86D0097FAAE /* canerAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A485562B0DA86D0097FAAE /* canerAppUITestsLaunchTests.swift */; };
+		34A485682B0DAC020097FAAE /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A485672B0DAC020097FAAE /* secondViewController.swift */; };
+		34A4856A2B0DAC190097FAAE /* firstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A485692B0DAC190097FAAE /* firstViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34A485472B0DA86D0097FAAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34A485282B0DA86C0097FAAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34A4852F2B0DA86C0097FAAE;
+			remoteInfo = canerApp;
+		};
+		34A485512B0DA86D0097FAAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34A485282B0DA86C0097FAAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34A4852F2B0DA86C0097FAAE;
+			remoteInfo = canerApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		343C3CD02B0DB6A60086695F /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		345BA3362B0DE9370024553B /* ebookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ebookViewController.swift; sourceTree = "<group>"; };
+		345BA3382B0DEC940024553B /* foodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodViewController.swift; sourceTree = "<group>"; };
+		345BA33A2B0E04EC0024553B /* tmiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tmiViewController.swift; sourceTree = "<group>"; };
+		34A485302B0DA86C0097FAAE /* canerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = canerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A485332B0DA86C0097FAAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34A485352B0DA86C0097FAAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		34A485372B0DA86C0097FAAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34A4853A2B0DA86C0097FAAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34A4853C2B0DA86C0097FAAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34A4853F2B0DA86C0097FAAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34A485412B0DA86C0097FAAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34A485462B0DA86D0097FAAE /* canerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = canerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A4854A2B0DA86D0097FAAE /* canerAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = canerAppTests.swift; sourceTree = "<group>"; };
+		34A485502B0DA86D0097FAAE /* canerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = canerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A485542B0DA86D0097FAAE /* canerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = canerAppUITests.swift; sourceTree = "<group>"; };
+		34A485562B0DA86D0097FAAE /* canerAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = canerAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		34A485672B0DAC020097FAAE /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		34A485692B0DAC190097FAAE /* firstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34A4852D2B0DA86C0097FAAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A485432B0DA86D0097FAAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A4854D2B0DA86D0097FAAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34A485272B0DA86C0097FAAE = {
+			isa = PBXGroup;
+			children = (
+				34A485322B0DA86C0097FAAE /* canerApp */,
+				34A485492B0DA86D0097FAAE /* canerAppTests */,
+				34A485532B0DA86D0097FAAE /* canerAppUITests */,
+				34A485312B0DA86C0097FAAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34A485312B0DA86C0097FAAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34A485302B0DA86C0097FAAE /* canerApp.app */,
+				34A485462B0DA86D0097FAAE /* canerAppTests.xctest */,
+				34A485502B0DA86D0097FAAE /* canerAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34A485322B0DA86C0097FAAE /* canerApp */ = {
+			isa = PBXGroup;
+			children = (
+				34A485332B0DA86C0097FAAE /* AppDelegate.swift */,
+				34A485352B0DA86C0097FAAE /* SceneDelegate.swift */,
+				34A485372B0DA86C0097FAAE /* ViewController.swift */,
+				34A485392B0DA86C0097FAAE /* Main.storyboard */,
+				34A485692B0DAC190097FAAE /* firstViewController.swift */,
+				34A485672B0DAC020097FAAE /* secondViewController.swift */,
+				34A4853C2B0DA86C0097FAAE /* Assets.xcassets */,
+				34A4853E2B0DA86C0097FAAE /* LaunchScreen.storyboard */,
+				34A485412B0DA86C0097FAAE /* Info.plist */,
+				343C3CD02B0DB6A60086695F /* CustomTableViewCell.swift */,
+				345BA3362B0DE9370024553B /* ebookViewController.swift */,
+				345BA3382B0DEC940024553B /* foodViewController.swift */,
+				345BA33A2B0E04EC0024553B /* tmiViewController.swift */,
+			);
+			path = canerApp;
+			sourceTree = "<group>";
+		};
+		34A485492B0DA86D0097FAAE /* canerAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				34A4854A2B0DA86D0097FAAE /* canerAppTests.swift */,
+			);
+			path = canerAppTests;
+			sourceTree = "<group>";
+		};
+		34A485532B0DA86D0097FAAE /* canerAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34A485542B0DA86D0097FAAE /* canerAppUITests.swift */,
+				34A485562B0DA86D0097FAAE /* canerAppUITestsLaunchTests.swift */,
+			);
+			path = canerAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34A4852F2B0DA86C0097FAAE /* canerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34A4855A2B0DA86D0097FAAE /* Build configuration list for PBXNativeTarget "canerApp" */;
+			buildPhases = (
+				34A4852C2B0DA86C0097FAAE /* Sources */,
+				34A4852D2B0DA86C0097FAAE /* Frameworks */,
+				34A4852E2B0DA86C0097FAAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = canerApp;
+			productName = canerApp;
+			productReference = 34A485302B0DA86C0097FAAE /* canerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34A485452B0DA86D0097FAAE /* canerAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34A4855D2B0DA86D0097FAAE /* Build configuration list for PBXNativeTarget "canerAppTests" */;
+			buildPhases = (
+				34A485422B0DA86D0097FAAE /* Sources */,
+				34A485432B0DA86D0097FAAE /* Frameworks */,
+				34A485442B0DA86D0097FAAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34A485482B0DA86D0097FAAE /* PBXTargetDependency */,
+			);
+			name = canerAppTests;
+			productName = canerAppTests;
+			productReference = 34A485462B0DA86D0097FAAE /* canerAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34A4854F2B0DA86D0097FAAE /* canerAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34A485602B0DA86D0097FAAE /* Build configuration list for PBXNativeTarget "canerAppUITests" */;
+			buildPhases = (
+				34A4854C2B0DA86D0097FAAE /* Sources */,
+				34A4854D2B0DA86D0097FAAE /* Frameworks */,
+				34A4854E2B0DA86D0097FAAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34A485522B0DA86D0097FAAE /* PBXTargetDependency */,
+			);
+			name = canerAppUITests;
+			productName = canerAppUITests;
+			productReference = 34A485502B0DA86D0097FAAE /* canerAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34A485282B0DA86C0097FAAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					34A4852F2B0DA86C0097FAAE = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					34A485452B0DA86D0097FAAE = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 34A4852F2B0DA86C0097FAAE;
+					};
+					34A4854F2B0DA86D0097FAAE = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 34A4852F2B0DA86C0097FAAE;
+					};
+				};
+			};
+			buildConfigurationList = 34A4852B2B0DA86C0097FAAE /* Build configuration list for PBXProject "canerApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34A485272B0DA86C0097FAAE;
+			productRefGroup = 34A485312B0DA86C0097FAAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34A4852F2B0DA86C0097FAAE /* canerApp */,
+				34A485452B0DA86D0097FAAE /* canerAppTests */,
+				34A4854F2B0DA86D0097FAAE /* canerAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34A4852E2B0DA86C0097FAAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A485402B0DA86C0097FAAE /* LaunchScreen.storyboard in Resources */,
+				34A4853D2B0DA86C0097FAAE /* Assets.xcassets in Resources */,
+				34A4853B2B0DA86C0097FAAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A485442B0DA86D0097FAAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A4854E2B0DA86D0097FAAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34A4852C2B0DA86C0097FAAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				343C3CD12B0DB6A60086695F /* CustomTableViewCell.swift in Sources */,
+				34A485682B0DAC020097FAAE /* secondViewController.swift in Sources */,
+				345BA3392B0DEC940024553B /* foodViewController.swift in Sources */,
+				345BA3372B0DE9370024553B /* ebookViewController.swift in Sources */,
+				34A4856A2B0DAC190097FAAE /* firstViewController.swift in Sources */,
+				34A485382B0DA86C0097FAAE /* ViewController.swift in Sources */,
+				34A485342B0DA86C0097FAAE /* AppDelegate.swift in Sources */,
+				345BA33B2B0E04EC0024553B /* tmiViewController.swift in Sources */,
+				34A485362B0DA86C0097FAAE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A485422B0DA86D0097FAAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A4854B2B0DA86D0097FAAE /* canerAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A4854C2B0DA86D0097FAAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A485572B0DA86D0097FAAE /* canerAppUITestsLaunchTests.swift in Sources */,
+				34A485552B0DA86D0097FAAE /* canerAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34A485482B0DA86D0097FAAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34A4852F2B0DA86C0097FAAE /* canerApp */;
+			targetProxy = 34A485472B0DA86D0097FAAE /* PBXContainerItemProxy */;
+		};
+		34A485522B0DA86D0097FAAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34A4852F2B0DA86C0097FAAE /* canerApp */;
+			targetProxy = 34A485512B0DA86D0097FAAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34A485392B0DA86C0097FAAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34A4853A2B0DA86C0097FAAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34A4853E2B0DA86C0097FAAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34A4853F2B0DA86C0097FAAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34A485582B0DA86D0097FAAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34A485592B0DA86D0097FAAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34A4855B2B0DA86D0097FAAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F9BQ5F2Q76;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = canerApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = inwoo.canerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34A4855C2B0DA86D0097FAAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F9BQ5F2Q76;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = canerApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = inwoo.canerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		34A4855E2B0DA86D0097FAAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F9BQ5F2Q76;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = inwoo.canerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/canerApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/canerApp";
+			};
+			name = Debug;
+		};
+		34A4855F2B0DA86D0097FAAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F9BQ5F2Q76;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = inwoo.canerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/canerApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/canerApp";
+			};
+			name = Release;
+		};
+		34A485612B0DA86D0097FAAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F9BQ5F2Q76;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = inwoo.canerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = canerApp;
+			};
+			name = Debug;
+		};
+		34A485622B0DA86D0097FAAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F9BQ5F2Q76;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = inwoo.canerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = canerApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34A4852B2B0DA86C0097FAAE /* Build configuration list for PBXProject "canerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A485582B0DA86D0097FAAE /* Debug */,
+				34A485592B0DA86D0097FAAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34A4855A2B0DA86D0097FAAE /* Build configuration list for PBXNativeTarget "canerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A4855B2B0DA86D0097FAAE /* Debug */,
+				34A4855C2B0DA86D0097FAAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34A4855D2B0DA86D0097FAAE /* Build configuration list for PBXNativeTarget "canerAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A4855E2B0DA86D0097FAAE /* Debug */,
+				34A4855F2B0DA86D0097FAAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34A485602B0DA86D0097FAAE /* Build configuration list for PBXNativeTarget "canerAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A485612B0DA86D0097FAAE /* Debug */,
+				34A485622B0DA86D0097FAAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34A485282B0DA86C0097FAAE /* Project object */;
+}
