@@ -8,9 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		343C3CD12B0DB6A60086695F /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343C3CD02B0DB6A60086695F /* CustomTableViewCell.swift */; };
-		345BA3372B0DE9370024553B /* ebookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345BA3362B0DE9370024553B /* ebookViewController.swift */; };
+		3448B1782B12680200631239 /* infoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3448B1772B12680200631239 /* infoTableViewCell.swift */; };
 		345BA3392B0DEC940024553B /* foodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345BA3382B0DEC940024553B /* foodViewController.swift */; };
 		345BA33B2B0E04EC0024553B /* tmiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345BA33A2B0E04EC0024553B /* tmiViewController.swift */; };
+		34851FD62B0EDF8A002218B2 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34851FD52B0EDF8A002218B2 /* WebKit.framework */; };
+		34851FD82B0EE03D002218B2 /* webViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34851FD72B0EE03D002218B2 /* webViewController.swift */; };
 		34A485342B0DA86C0097FAAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A485332B0DA86C0097FAAE /* AppDelegate.swift */; };
 		34A485362B0DA86C0097FAAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A485352B0DA86C0097FAAE /* SceneDelegate.swift */; };
 		34A485382B0DA86C0097FAAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A485372B0DA86C0097FAAE /* ViewController.swift */; };
@@ -22,6 +24,8 @@
 		34A485572B0DA86D0097FAAE /* canerAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A485562B0DA86D0097FAAE /* canerAppUITestsLaunchTests.swift */; };
 		34A485682B0DAC020097FAAE /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A485672B0DAC020097FAAE /* secondViewController.swift */; };
 		34A4856A2B0DAC190097FAAE /* firstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A485692B0DAC190097FAAE /* firstViewController.swift */; };
+		34C407FB2B127DE900DCB01A /* testwebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C407FA2B127DE900DCB01A /* testwebViewController.swift */; };
+		34C407FD2B12816800DCB01A /* testTwowebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C407FC2B12816800DCB01A /* testTwowebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,9 +47,11 @@
 
 /* Begin PBXFileReference section */
 		343C3CD02B0DB6A60086695F /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
-		345BA3362B0DE9370024553B /* ebookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ebookViewController.swift; sourceTree = "<group>"; };
+		3448B1772B12680200631239 /* infoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoTableViewCell.swift; sourceTree = "<group>"; };
 		345BA3382B0DEC940024553B /* foodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodViewController.swift; sourceTree = "<group>"; };
 		345BA33A2B0E04EC0024553B /* tmiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tmiViewController.swift; sourceTree = "<group>"; };
+		34851FD52B0EDF8A002218B2 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		34851FD72B0EE03D002218B2 /* webViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webViewController.swift; sourceTree = "<group>"; };
 		34A485302B0DA86C0097FAAE /* canerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = canerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34A485332B0DA86C0097FAAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34A485352B0DA86C0097FAAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +67,8 @@
 		34A485562B0DA86D0097FAAE /* canerAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = canerAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		34A485672B0DAC020097FAAE /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 		34A485692B0DAC190097FAAE /* firstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstViewController.swift; sourceTree = "<group>"; };
+		34C407FA2B127DE900DCB01A /* testwebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testwebViewController.swift; sourceTree = "<group>"; };
+		34C407FC2B12816800DCB01A /* testTwowebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testTwowebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34851FD62B0EDF8A002218B2 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +97,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34851FD42B0EDF8A002218B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34851FD52B0EDF8A002218B2 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		34A485272B0DA86C0097FAAE = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +112,7 @@
 				34A485492B0DA86D0097FAAE /* canerAppTests */,
 				34A485532B0DA86D0097FAAE /* canerAppUITests */,
 				34A485312B0DA86C0097FAAE /* Products */,
+				34851FD42B0EDF8A002218B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,9 +139,12 @@
 				34A4853E2B0DA86C0097FAAE /* LaunchScreen.storyboard */,
 				34A485412B0DA86C0097FAAE /* Info.plist */,
 				343C3CD02B0DB6A60086695F /* CustomTableViewCell.swift */,
-				345BA3362B0DE9370024553B /* ebookViewController.swift */,
 				345BA3382B0DEC940024553B /* foodViewController.swift */,
 				345BA33A2B0E04EC0024553B /* tmiViewController.swift */,
+				34851FD72B0EE03D002218B2 /* webViewController.swift */,
+				3448B1772B12680200631239 /* infoTableViewCell.swift */,
+				34C407FA2B127DE900DCB01A /* testwebViewController.swift */,
+				34C407FC2B12816800DCB01A /* testTwowebViewController.swift */,
 			);
 			path = canerApp;
 			sourceTree = "<group>";
@@ -276,15 +297,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34C407FD2B12816800DCB01A /* testTwowebViewController.swift in Sources */,
 				343C3CD12B0DB6A60086695F /* CustomTableViewCell.swift in Sources */,
 				34A485682B0DAC020097FAAE /* secondViewController.swift in Sources */,
 				345BA3392B0DEC940024553B /* foodViewController.swift in Sources */,
-				345BA3372B0DE9370024553B /* ebookViewController.swift in Sources */,
+				34C407FB2B127DE900DCB01A /* testwebViewController.swift in Sources */,
 				34A4856A2B0DAC190097FAAE /* firstViewController.swift in Sources */,
 				34A485382B0DA86C0097FAAE /* ViewController.swift in Sources */,
+				34851FD82B0EE03D002218B2 /* webViewController.swift in Sources */,
 				34A485342B0DA86C0097FAAE /* AppDelegate.swift in Sources */,
 				345BA33B2B0E04EC0024553B /* tmiViewController.swift in Sources */,
 				34A485362B0DA86C0097FAAE /* SceneDelegate.swift in Sources */,
+				3448B1782B12680200631239 /* infoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
