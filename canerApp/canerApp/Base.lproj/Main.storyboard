@@ -470,23 +470,89 @@
             </objects>
             <point key="canvasLocation" x="1393" y="2425"/>
         </scene>
+        <!--Start View Controller-->
+        <scene sceneID="k9E-ri-KWY">
+            <objects>
+                <viewController id="tXt-Rq-vWe" customClass="startViewController" customModule="canerApp" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="g4b-pz-kXX">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QGP-Sl-uYc">
+                                <rect key="frame" x="127" y="693" width="139" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="네, 좋아요!"/>
+                                <buttonConfiguration key="configuration" style="filled" title="네, 좋아요!">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="19"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="LhK-DZ-GJx"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="쉬운 설명과 함께 제공되는 실질적인 정보로 건강한 생활을 위한 첫걸음을 함께 시작해요. " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZtO-P1-WJS">
+                                <rect key="frame" x="16" y="389" width="361" height="166"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="환영합니다! 이곳은 암에 대한 지식을 쉽고 효과적으로 이해할 수 있는 공간입니다." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YOt-xx-H79">
+                                <rect key="frame" x="16" y="126" width="361" height="255"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="OaP-JZ-pXb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="OcD-FM-KId"/>
+                    <connections>
+                        <outlet property="goButton" destination="QGP-Sl-uYc" id="geg-UG-V1v"/>
+                        <outlet property="lblOne" destination="YOt-xx-H79" id="ocJ-66-PdC"/>
+                        <outlet property="lblTwo" destination="ZtO-P1-WJS" id="Kfe-Vl-Seg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X8R-Yv-zzR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.824427480916029" y="-20.422535211267608"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="pK2-KJ-ZMm">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="MPY-0j-ZGI" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" id="alB-mh-4rY"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="Qti-cN-fjd">
                         <rect key="frame" x="0.0" y="59" width="393" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="3eQ-Xh-Mzu"/>
+                        <segue destination="tXt-Rq-vWe" kind="relationship" relationship="rootViewController" id="LCd-Nm-pNP"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yxw-cD-gFQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="32.824427480916029" y="-27.464788732394368"/>
+            <point key="canvasLocation" x="33" y="-804"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="vTs-aO-TDA">
+            <objects>
+                <viewController id="4Kn-rz-K3X" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="as6-2U-Z8p">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="0ge-ow-V41"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NdB-V7-KhM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2158" y="-20"/>
         </scene>
     </scenes>
     <resources>

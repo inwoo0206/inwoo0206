@@ -26,6 +26,7 @@
 		34A4856A2B0DAC190097FAAE /* firstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A485692B0DAC190097FAAE /* firstViewController.swift */; };
 		34C407FB2B127DE900DCB01A /* testwebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C407FA2B127DE900DCB01A /* testwebViewController.swift */; };
 		34C407FD2B12816800DCB01A /* testTwowebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C407FC2B12816800DCB01A /* testTwowebViewController.swift */; };
+		34DB71AD2B181D64007FEF03 /* startViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DB71AC2B181D64007FEF03 /* startViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		34A485692B0DAC190097FAAE /* firstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstViewController.swift; sourceTree = "<group>"; };
 		34C407FA2B127DE900DCB01A /* testwebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testwebViewController.swift; sourceTree = "<group>"; };
 		34C407FC2B12816800DCB01A /* testTwowebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testTwowebViewController.swift; sourceTree = "<group>"; };
+		34DB71AC2B181D64007FEF03 /* startViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 				3448B1772B12680200631239 /* infoTableViewCell.swift */,
 				34C407FA2B127DE900DCB01A /* testwebViewController.swift */,
 				34C407FC2B12816800DCB01A /* testTwowebViewController.swift */,
+				34DB71AC2B181D64007FEF03 /* startViewController.swift */,
 			);
 			path = canerApp;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 				34C407FD2B12816800DCB01A /* testTwowebViewController.swift in Sources */,
 				343C3CD12B0DB6A60086695F /* CustomTableViewCell.swift in Sources */,
 				34A485682B0DAC020097FAAE /* secondViewController.swift in Sources */,
+				34DB71AD2B181D64007FEF03 /* startViewController.swift in Sources */,
 				345BA3392B0DEC940024553B /* foodViewController.swift in Sources */,
 				34C407FB2B127DE900DCB01A /* testwebViewController.swift in Sources */,
 				34A4856A2B0DAC190097FAAE /* firstViewController.swift in Sources */,
